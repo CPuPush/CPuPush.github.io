@@ -1,0 +1,44 @@
+@font-face{
+    font-family: 'for';
+    src: url('item/Reey-Regular.otf') format('truetype');
+}
+@font-face{
+    font-family: 'forus';
+    src: url('item/Schoolbell.ttf') format('truetype');
+}
+body{
+    background-color: #7c7c7c;
+}
+#img{
+    max-width: 800px;
+    transition: 4s;
+    filter: saturate(20%);
+}
+h5{
+    font-size: 40px;
+    font-family: 'for';
+    margin-top: 271px;
+    text-align: center;
+}
+p{
+    margin-top: 48px;
+    font-family: 'forus';
+    font-size: 25px;
+    text-align: center;
+}
+.kotak{
+    margin-top: 48px;
+    
+}
+.kotak div{
+    display: inline-block;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.kotak div img{
+    width: 40px;
+    transition: 0.5s;
+}
+.kotak div img:hover{
+    transform: scale(1.5)rotate(10deg);
+}
